@@ -1,4 +1,4 @@
-name: CI
+name: gh-deploy-workflow
 
 on:
   push:
