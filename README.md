@@ -1,4 +1,4 @@
-# INFO8985-observable-monolith
+# G12_observable_monolith
 Observable Wordpress
 
 ```bash
