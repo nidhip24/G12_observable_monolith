@@ -4,5 +4,8 @@
     },
     "scripts": {
         "build": "wp-pwa build G12_observable_monolith"
+    },
+    "dependencies": {
+        "diy-pwa": "^1.1.19"
     }
 }

@@ -29,9 +29,6 @@ jobs:
       - name: Build Static Site
         run: npm run build
 
-      - name: Generate PWA Files
-        run: npx diy-pwa dist/index.html dist
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
