@@ -30,7 +30,7 @@ jobs:
         run: npm run build
 
       - name: Generate PWA Files
-        run: npx diy-pwa index dist
+        run: npx diy-pwa dist/index.html dist
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
