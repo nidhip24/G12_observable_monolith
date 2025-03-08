@@ -32,6 +32,9 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 <style id='wp-block-preformatted-inline-css'>
 .wp-block-preformatted{box-sizing:border-box;white-space:pre-wrap}:where(.wp-block-preformatted.has-background){padding:1.25em 2.375em}
 </style>
+<style id='wp-block-spacer-inline-css'>
+.wp-block-spacer{clear:both}
+</style>
 <style id='wp-block-post-template-inline-css'>
 .wp-block-post-template{list-style:none;margin-bottom:0;margin-top:0;max-width:100%;padding:0}.wp-block-post-template.is-flex-container{display:flex;flex-direction:row;flex-wrap:wrap;gap:1.25em}.wp-block-post-template.is-flex-container>li{margin:0;width:100%}@media (min-width:600px){.wp-block-post-template.is-flex-container.is-flex-container.columns-2>li{width:calc(50% - .625em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-3>li{width:calc(33.33333% - .83333em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-4>li{width:calc(25% - .9375em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-5>li{width:calc(20% - 1em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-6>li{width:calc(16.66667% - 1.04167em)}}@media (max-width:600px){.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid{grid-template-columns:1fr}}.wp-block-post-template-is-layout-constrained>li>.alignright,.wp-block-post-template-is-layout-flow>li>.alignright{float:right;margin-inline-end:0;margin-inline-start:2em}.wp-block-post-template-is-layout-constrained>li>.alignleft,.wp-block-post-template-is-layout-flow>li>.alignleft{float:left;margin-inline-end:2em;margin-inline-start:0}.wp-block-post-template-is-layout-constrained>li>.aligncenter,.wp-block-post-template-is-layout-flow>li>.aligncenter{margin-inline-end:auto;margin-inline-start:auto}
 </style>
@@ -60,7 +63,7 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 :root :where(.wp-block-separator){border-color: currentColor;border-width: 0 0 1px 0;border-style: solid;color: var(--wp--preset--color--accent-6);}
 </style>
 <style id='core-block-supports-inline-css'>
-.wp-container-core-group-is-layout-1{flex-wrap:nowrap;justify-content:space-between;}
+.wp-container-core-group-is-layout-1{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-post-template-is-layout-1 > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-post-template-is-layout-1 > * + *{margin-block-start:0;margin-block-end:0;}
 </style>
 <style id='wp-block-template-skip-link-inline-css'>
 
@@ -116,14 +119,15 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 
 
 
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<hr class="wp-block-separator has-alpha-channel-opacity" style="margin-top:0;margin-bottom:0"/>
 
 
 
 <main class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--60)">
-<div class="wp-block-query alignfull is-layout-flow wp-block-query-is-layout-flow"><ul class="alignfull wp-block-post-template is-layout-flow wp-block-post-template-is-layout-flow"><li class="wp-block-post post-1 post type-post status-publish format-standard hentry category-uncategorized">
+<div class="wp-block-query alignfull is-layout-flow wp-block-query-is-layout-flow"><ul class="alignfull wp-block-post-template is-layout-flow wp-container-core-post-template-is-layout-1 wp-block-post-template-is-layout-flow"><li class="wp-block-post post-1 post type-post status-publish format-standard hentry category-uncategorized">
 
-<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<div class="wp-block-group alignfull has-global-padding is-content-justification-center is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
 <h2 class="wp-block-heading"><strong>The Impact and Ethics of AI in Modern Society</strong></h2>
 
 
@@ -141,6 +145,89 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 
 
 <pre class="wp-block-preformatted is-style-default has-small-font-size" style="border-style:none;border-width:0px;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">- Nidhip Kathiriya</pre>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+
+
+
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading"><strong>The Rise of 5G: How It’s Changing Connectivity</strong></h2>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://juristech.net/juristech/wp-content/uploads/2020/01/2780146-min-2.jpg" alt=""/></figure>
+
+
+
+<p class="has-text-align-left">The rollout of 5G technology is revolutionizing the way we connect to the internet, bringing faster speeds, lower latency, and improved reliability. With download speeds up to 100 times faster than 4G, 5G is enabling seamless streaming, ultra-responsive gaming, and enhanced remote work capabilities.</p>
+
+
+
+<p class="has-text-align-left">Beyond personal use, industries are leveraging 5G for innovations like smart cities, autonomous vehicles, and advanced IoT applications. However, challenges such as infrastructure costs, security concerns, and global rollout disparities remain. As 5G continues to expand, it will redefine digital experiences and pave the way for a more connected world.</p>
+
+
+
+<pre class="wp-block-preformatted is-style-default has-small-font-size" style="border-style:none;border-width:0px;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">- Rahi Patel</pre>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+
+
+
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading"><strong><strong>Cybersecurity in the Digital Age: Protecting Your Data</strong></strong></h2>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://informationage-production.s3.amazonaws.com/uploads/2022/10/creating-rolling-out-effective-cyber-security-strategy.jpeg" alt=""/></figure>
+
+
+
+<p class="has-text-align-left">As our reliance on digital platforms grows, so do the risks associated with cyber threats. From phishing attacks and ransomware to data breaches, cybersecurity has become a top priority for individuals and businesses alike. Companies are investing heavily in encryption, multi-factor authentication, and AI-driven security measures to combat evolving threats.</p>
+
+
+
+<p class="has-text-align-left">With regulations like GDPR and CCPA in place, data privacy is also gaining importance. Users must take proactive steps—such as using strong passwords, avoiding suspicious links, and keeping software updated—to safeguard their digital presence. In an era where cyberattacks are increasingly sophisticated, staying informed and vigilant is essential.</p>
+
+
+
+<pre class="wp-block-preformatted is-style-default has-small-font-size" style="border-style:none;border-width:0px;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">- Kirtirajsinh Solanki</pre>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+
+
+
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading"><strong>The Evolution of Cloud Computing: Why Businesses Are Moving to the Cloud</strong></h2>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://assets.bizclikmedia.net/1800/31939d8a53ebe7c8b5c3c552d81db151:4ebeab1890b29e0931eb3d6a76a1f8cb/gettyimages-1277731016-20-284-29-1-jpg.webp" alt=""/></figure>
+
+
+
+<p class="has-text-align-left">Cloud computing has transformed the way businesses store, process, and manage data. Offering scalability, flexibility, and cost savings, cloud solutions like AWS, Microsoft Azure, and Google Cloud have become the backbone of modern IT infrastructure. Companies are shifting from traditional on-premise servers to cloud environments to enhance efficiency and accessibility.</p>
+
+
+
+<p class="has-text-align-left">Beyond storage, cloud computing enables innovations such as serverless computing, edge computing, and cloud-based collaboration tools. However, concerns around data security, vendor lock-in, and compliance challenges still exist. As cloud technology evolves, businesses must adopt best practices to maximize its potential while mitigating risks.</p>
+
+
+
+<pre class="wp-block-preformatted is-style-default has-small-font-size" style="border-style:none;border-width:0px;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">- Vama Shah</pre>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
 </div>
 
 </li></ul></div>
